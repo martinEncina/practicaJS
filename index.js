@@ -142,3 +142,76 @@ es decir, los múltiplos de 3 y 5 (o de 15), por la palabra “fizzbuzz”.*/
 // Estos parámetros se concatenarán de la siguiente manera:Hello! my name is {name}, my profession is {profession}. I am {age} years old.
 
 // Por último, llama la función con los datos en el orden correcto para completar el ejercicio.
+
+// function shortIntroduction(name,professiony, age) {
+//     // Complete this function's body and arguments
+//     return name + professiony + age
+//   }
+  
+// //   Fill the gaps with your data in the correct order
+
+//   console.log(shortIntroduction("Martin ","Programador", " 33"))
+
+
+// Ejercicio 10
+
+// Una vez que el usuario ingresa la cantidad, tenemos que imprimir una de las siguientes respuestas:
+// Si quedan más de 100km, nosotros respondemos: "Todavía nos queda un poco de conducción para ir".
+// Si quedan más de 50km, pero menos o igual a 100km nosotros respondemos: "Estaremos allí en 5 minutos.".
+// Si quedan menos o igual a 50km, nosotros respondemos: "estoy estacionando te veré ahora mismo".
+
+
+
+// const kilometrosARecorrer = (km) =>{ 
+// if (km > 100){
+//     return "Todavía nos queda un poco de conducción para ir";
+// } else if (km >50){
+//     return "Estaremos allí en 5 minutos.";
+// }else{
+//     return "estoy estacionando te veré ahora mismo";
+// }
+// }
+// console.log(kilometrosARecorrer(50));
+
+// Ejercicio 11
+
+// Crea una función getPriceque recibe la cantidad de personas que van a 
+// asistir a la boda y devuelve el precio correspondiente en la consola.
+
+// Nº de Personas	Precio
+// Hasta 50 personas	$4,000
+// Hasta 100 personas	$10,000
+// Hasta 200 personas	$15,000
+// // Más de 200 personas	$20,000
+
+// const getPriceque = (invitados) => {
+//      if(invitados <= 50) { 
+//         return "$4,000";
+//     }else if(invitados <= 100){
+//          return "$10,000";
+//     }else if(invitados <= 200){
+//             return "$15,000";
+//      }else {
+//             return "$20,000";
+//     }  
+
+// }
+// console.log(getPriceque(300));
+
+// Ejercicio 12
+
+// Actualiza el código de la función para hacer que devuelva un número entero (sin decimales) entre 1 y 10.
+
+// function getRandomInt()
+// {
+// 	let randomNumber = Math.random();
+// 	return randomNumber;
+// }
+
+
+// console.log(getRandomInt());
+
+const getRandomInt = () => {
+    return Math.floor(Math.random() * 10)
+}
+console.log(Math.floor(Math.random() * 10));
